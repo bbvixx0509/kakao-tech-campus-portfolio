@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include"linkedList.h"
+#include"score_linked_list.h"
 
 // 이름과 점수를 함께 관리하는 연결 리스트 구현
 linkedList_h* createLinkedList_h(void) {

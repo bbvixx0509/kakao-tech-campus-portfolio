@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%-- 회원가입 입력 폼과 아이디 중복 확인 버튼을 제공하는 페이지 --%>
 <%
     // 현재 사용자 수 확인 (application scope)
@@ -31,7 +31,7 @@
                         <a href="login.jsp" class="btn btn-primary">로그인하러 가기</a>
                     </div>
                 <% } else { %>
-                    <form action="newlogin2.jsp" method="post" onsubmit="return validateForm()">
+                    <form action="signup_process.jsp" method="post" onsubmit="return validateForm()">
                         <div class="mb-3">
                             <label for="id" class="form-label">아이디</label>
                             <div class="row">
@@ -79,7 +79,7 @@
             return;
         }
         
-        fetch('check_id.jsp?id=' + encodeURIComponent(id))
+        fetch('check_id_availability.jsp?id=' + encodeURIComponent(id))
             .then(response => response.text())
             .then(data => {
                 document.getElementById('idResult').innerHTML = data;

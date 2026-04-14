@@ -4,7 +4,7 @@
 #define MAX_VERTEX 30
 #include <stdio.h>
 #include<stdlib.h>
-#include "DFS.h"
+#include "dfs_traversal.h"
 typedef int element;
 
 // DFS는 재귀 호출을 이용해 한 방향으로 끝까지 탐색한 뒤 되돌아온다.

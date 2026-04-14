@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%-- 학과 소개 형태로 구성한 웹 프로젝트의 메인 홈 화면 --%>
 <!DOCTYPE html>
 <html lang="ko">
@@ -11,11 +11,11 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <div class="container">
-            <a class="navbar-brand text-white" href="home.jsp">AI소프트웨어학과</a>
+            <a class="navbar-brand text-white" href="department_home.jsp">AI소프트웨어학과</a>
             <div class="navbar-nav ms-auto">
-                <a class="nav-link text-white" href="home.jsp">홈</a>
-                <a class="nav-link text-white" href="curriculum.jsp">교육과정</a>
-                <a class="nav-link text-white" href="notice.jsp">공지사항</a>
+                <a class="nav-link text-white" href="department_home.jsp">홈</a>
+                <a class="nav-link text-white" href="curriculum_overview.jsp">교육과정</a>
+                <a class="nav-link text-white" href="notice_board.jsp">공지사항</a>
             </div>
         </div>
     </nav>

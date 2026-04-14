@@ -1,4 +1,4 @@
-﻿#include "header.h"
+﻿#include "video_rental.h"
 
 // 회원 정보와 비디오 목록을 파일과 메모리 사이에서 관리하는 함수 모음
 int num;// mian 함수에 숫자를 입력받기 위해 선언

@@ -1,29 +1,29 @@
-#include "header.h"
+ï»¿#include "flash_memory.h"
 
 int main() {
 	a = (struct Flash*)malloc(sizeof(struct Flash) * 100);
 	int num;
 	while (1) {
-		printf("1.º¹¿ø\n2.ÀÐ±â\n3.¾²±â\n4.Áö¿ì±â\n");
+		printf("1.ï¿½ï¿½ï¿½ï¿½\n2.ï¿½Ð±ï¿½\n3.ï¿½ï¿½ï¿½ï¿½\n4.ï¿½ï¿½ï¿½ï¿½ï¿½\n");
 		scanf("%d", &num);
 		switch (num) {
 		case 1:
-			printf("º¹¿ø");
+			printf("ï¿½ï¿½ï¿½ï¿½");
 			init(a);
 			break;
 
 			/*case 2:
-				printf("ÀÐ±â");
+				printf("ï¿½Ð±ï¿½");
 				Flash_read();
 				continue;
 
 			case 3:
-				printf("¾²±â");
+				printf("ï¿½ï¿½ï¿½ï¿½");
 				Flash_write();
 				continue;
 
 			case 4:
-				printf("Áö¿ì±â");
+				printf("ï¿½ï¿½ï¿½ï¿½ï¿½");
 				Flash_erase();
 				break;*/
 		default:

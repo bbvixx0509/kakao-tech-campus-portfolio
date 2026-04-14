@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소스.c">
+    <ClCompile Include="video_rental_data.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="header.c">
+    <ClCompile Include="video_rental_app.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header.h">
+    <ClInclude Include="video_rental.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

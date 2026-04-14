@@ -1,4 +1,4 @@
-﻿#include "header.h"
+﻿#include "video_rental.h"
 
 // 프로그램 시작 시 회원과 비디오 데이터를 메모리에 올린 뒤 메뉴를 실행한다.
 int main()

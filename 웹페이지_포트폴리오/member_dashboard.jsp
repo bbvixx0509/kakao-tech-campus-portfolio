@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.util.*" %>
 <%-- 로그인한 사용자가 회원 목록을 확인하고 삭제할 수 있는 관리 페이지 --%>
@@ -65,7 +65,7 @@
                                 <td><%= userIdKey %></td>
                                 <td><%= name %></td>
                                 <td>
-                                    <a href="delete_process.jsp?userId=<%= userIdKey %>" 
+                                    <a href="delete_member.jsp?userId=<%= userIdKey %>" 
                                        class="btn btn-danger btn-sm"
                                        onclick="return confirm('정말 삭제하시겠습니까?')">삭제</a>
                                 </td>
@@ -82,8 +82,8 @@
                 <% } %>
                 
                 <div class="text-center mt-4">
-                    <a href="home.jsp" class="btn btn-primary me-2">홈으로</a>
-                    <a href="newlogin.jsp" class="btn btn-success me-2">회원가입</a>
+                    <a href="department_home.jsp" class="btn btn-primary me-2">홈으로</a>
+                    <a href="signup_form.jsp" class="btn btn-success me-2">회원가입</a>
                     <a href="logout.jsp" class="btn btn-secondary">로그아웃</a>
                 </div>
             </div>

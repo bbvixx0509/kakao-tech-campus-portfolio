@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DFS.c">
+    <ClCompile Include="dfs_traversal.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DFS.h">
+    <ClInclude Include="dfs_traversal.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

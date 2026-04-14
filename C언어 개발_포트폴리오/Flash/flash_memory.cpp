@@ -1,4 +1,4 @@
-﻿#include "header.h"
+﻿#include "flash_memory.h"
 
 // 초기화, 쓰기, 읽기, 삭제 기능을 나누어 플래시 메모리 동작을 실습한 파일
 struct Flash* init(struct Flash* a) {

@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.util.*" %>
 <%-- 로그인 성공 여부에 따라 다음 이동 경로를 안내하는 결과 페이지 --%>
 <!DOCTYPE html>
@@ -40,8 +40,8 @@ int currentUserCount = (allUsers != null) ? allUsers.size() : 0;
                 </div>
                 
                 <div class="d-grid gap-2">
-                    <a href="home.jsp" class="btn btn-primary">홈페이지로 가기</a>
-                    <a href="main.jsp" class="btn btn-secondary">회원관리로 가기</a>
+                    <a href="department_home.jsp" class="btn btn-primary">홈페이지로 가기</a>
+                    <a href="member_dashboard.jsp" class="btn btn-secondary">회원관리로 가기</a>
                 </div>
                 
                 <div class="text-center mt-3">
@@ -62,7 +62,7 @@ int currentUserCount = (allUsers != null) ? allUsers.size() : 0;
                     <% if (currentUserCount < 2) { %>
                         <p class="text-center">회원가입을 먼저 해주세요!</p>
                         <div class="d-grid gap-2">
-                            <a href="newlogin.jsp" class="btn btn-primary">회원가입 하러 가기</a>
+                            <a href="signup_form.jsp" class="btn btn-primary">회원가입 하러 가기</a>
                             <a href="login.jsp" class="btn btn-secondary">다시 로그인하기</a>
                         </div>
                     <% } else { %>
@@ -89,7 +89,7 @@ int currentUserCount = (allUsers != null) ? allUsers.size() : 0;
                     </div>
                     <div class="d-grid gap-2">
                         <a href="login.jsp" class="btn btn-primary">다시 로그인하기</a>
-                        <a href="newlogin.jsp" class="btn btn-secondary">회원가입하기</a>
+                        <a href="signup_form.jsp" class="btn btn-secondary">회원가입하기</a>
                     </div>
                 <% } %>
             <% } %>

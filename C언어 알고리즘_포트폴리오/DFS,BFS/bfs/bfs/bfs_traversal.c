@@ -3,7 +3,7 @@
 #define FALSE 0
 #include <stdio.h>
 #include<stdlib.h>
-#include "BFS.h"
+#include "bfs_traversal.h"
 typedef int element;
 
 // BFS에서 사용하는 큐와 그래프 기본 연산을 한 파일에 정리했다.

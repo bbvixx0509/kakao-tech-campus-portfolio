@@ -1,4 +1,4 @@
-﻿#include "header.h"
+﻿#include "flash_memory.h"
 
 // 명령어 형태로 init, write, read, erase 기능을 호출하는 진입점
 int main() {

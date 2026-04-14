@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.util.*" %>
 <%-- 로그인 요청을 처리하고 세션에 로그인 상태를 저장하는 페이지 --%>
@@ -46,7 +46,7 @@ if(loginid != null && loginpasswd != null) {
     }
 }
 	
-response.sendRedirect("newlogin4.jsp?tof=" + tof + "&id=" + loginid + "&errorType=" + errorType);
+response.sendRedirect("login_result.jsp?tof=" + tof + "&id=" + loginid + "&errorType=" + errorType);
 %>
 </body>
 </html>

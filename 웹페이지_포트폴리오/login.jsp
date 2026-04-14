@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%-- 사용자 아이디와 비밀번호를 입력받는 로그인 페이지 --%>
 <!DOCTYPE html>
 <html lang="ko">
@@ -14,7 +14,7 @@
             <div class="col-md-4">
                 <h2 class="text-center mb-4">로그인</h2>
                 
-                <form action="newlogin3.jsp" method="post">
+                <form action="login_process.jsp" method="post">
                     <div class="mb-3">
                         <label for="id" class="form-label">아이디</label>
                         <input type="text" class="form-control" id="id" name="id" required>
@@ -32,7 +32,7 @@
                 </form>
 
                 <div class="text-center mt-3">
-                    <a href="newlogin.jsp">회원가입</a> 
+                    <a href="signup_form.jsp">회원가입</a> 
                 </div>
             </div>
         </div>
