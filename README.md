@@ -7,19 +7,19 @@
 
 | 구분 | 내용 | 주요 기술 |
 | --- | --- | --- |
-| [C언어 개발 포트폴리오](./C언어%20개발_포트폴리오) | 전화번호부, 비디오 대여 프로그램, 플래시 메모리 시뮬레이터 | C, C++, 파일 입출력, 자료구조 |
-| [C언어 알고리즘 포트폴리오](./C언어%20알고리즘_포트폴리오) | 연결 리스트, 큐, 힙, DFS, BFS 구현 | C, 자료구조, 그래프 탐색 |
-| [웹페이지 포트폴리오](./웹페이지_포트폴리오) | JSP 기반 로그인/회원가입/회원관리 웹 페이지 | JSP, Java, Bootstrap |
-| [머신러닝 포트폴리오](./머신러닝_포트폴리오) | 머신러닝 수업 결과물 PDF 정리 | Machine Learning, 보고서 작성 |
-| [연구실 프로젝트](./연구실에선%20날씨%20공보전_지하철%20혼잡도) | 날씨와 지하철 혼잡도 관련 분석 노트북 | Python, Jupyter Notebook, 데이터 분석 |
+| [C언어 개발 포트폴리오](./c-development-projects) | 전화번호부, 비디오 대여 프로그램, 플래시 메모리 시뮬레이터 | C, C++, 파일 입출력, 자료구조 |
+| [C언어 알고리즘 포트폴리오](./c-algorithm-practice) | 연결 리스트, 큐, 힙, DFS, BFS 구현 | C, 자료구조, 그래프 탐색 |
+| [웹페이지 포트폴리오](./jsp-web-portfolio) | JSP 기반 로그인/회원가입/회원관리 웹 페이지 | JSP, Java, Bootstrap |
+| [머신러닝 포트폴리오](./machine-learning-portfolio) | 머신러닝 수업 결과물 PDF 정리 | Machine Learning, 보고서 작성 |
+| [연구실 프로젝트](./weather-subway-crowding-analysis) | 날씨와 지하철 혼잡도 관련 분석 노트북 | Python, Jupyter Notebook, 데이터 분석 |
 
 ## Recommended Order
 
-1. `C언어 개발_포트폴리오`
-2. `웹페이지_포트폴리오`
-3. `연구실에선 날씨 공보전_지하철 혼잡도`
-4. `머신러닝_포트폴리오`
-5. `C언어 알고리즘_포트폴리오`
+1. `c-development-projects`
+2. `jsp-web-portfolio`
+3. `weather-subway-crowding-analysis`
+4. `machine-learning-portfolio`
+5. `c-algorithm-practice`
 
 ## Highlights
 
@@ -50,11 +50,11 @@
 
 ```text
 포트폴리오/
-├─ C언어 개발_포트폴리오/
-├─ C언어 알고리즘_포트폴리오/
-├─ 머신러닝_포트폴리오/
-├─ 연구실에선 날씨 공보전_지하철 혼잡도/
-├─ 웹페이지_포트폴리오/
+├─ c-development-projects/
+├─ c-algorithm-practice/
+├─ machine-learning-portfolio/
+├─ weather-subway-crowding-analysis/
+├─ jsp-web-portfolio/
 └─ README.md
 ```
 
@@ -69,4 +69,3 @@
 
 - 빌드 산출물과 Visual Studio 임시 파일은 `.gitignore`로 제외했습니다.
 - 코드 이해를 돕기 위해 일부 대표 소스 파일에는 짧은 설명 주석을 보강했습니다.
-
