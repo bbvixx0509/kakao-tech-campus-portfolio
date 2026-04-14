@@ -1,0 +1,32 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.opendb
+Browse.VC.db
+ipch/
+
+# Build outputs
+x64/
+Debug/
+Release/
+*.obj
+*.ilk
+*.pdb
+*.exe
+*.recipe
+*.log
+*.idb
+*.tlog
+*.lastbuildstate
+*.enc
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Runtime / personal notes
+C언어 개발_포트폴리오/vedioborrow/vedioborrow/user.txt
+C언어 개발_포트폴리오/vedioborrow/vedioborrow/소웨공 해결해야할것.txt
+C언어 개발_포트폴리오/Flash/flashmemory.txt
