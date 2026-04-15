@@ -35,19 +35,17 @@ R로 정리한 머신러닝 실습 코드 모음입니다.
 | `information_gain.R` | 변수별 information gain |
 | `neural_network_forward.R` | 예측값 `y_hat`, loss |
 
-### 결과 출력 예시
-```text
-[로지스틱 회귀] 분류 정확도: xx.xx%
-[마할라노비스 KNN] 분류 정확도: xx.xx%
+### 실행 결과 예시
+#### k-NN 결과 화면
+![KNN Output](./images/knn_output.png)
 
-선형회귀 모델 MSE: ...
-의사결정나무 모델 MSE: ...
+#### SVM 결과 화면
+![SVM Output](./images/svm_output.png)
 
-랜덤 포레스트 모델의 결정계수 (R^2): ...
-P4_test 데이터에 대한 MSE: ...
-```
+#### 신경망 결과 화면
+![Neural Network Output](./images/neural_network_output.png)
 
-실행 환경이 갖춰지면 각 스크립트에서 정확도, MSE, R^2, loss 같은 지표를 바로 확인할 수 있고, README에서는 어떤 값을 봐야 하는지 먼저 이해할 수 있게 정리했습니다.
+PDF에 정리해둔 실제 실행 결과 화면을 기준으로 넣은 이미지라서, 코드만 보는 것보다 출력값과 결과 해석 흐름을 더 쉽게 확인할 수 있습니다.
 
 ## What To Look At
 

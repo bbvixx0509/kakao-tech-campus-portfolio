@@ -21,31 +21,16 @@ JSP와 Bootstrap으로 만든 웹 페이지 실습 프로젝트입니다.
 
 ## Preview
 
-### 로그인 화면 예시
-```text
-로그인
+### 로그인 화면
+![Login Screen](./images/login_screen.png)
 
-아이디      [                ]
-비밀번호    [                ]
+### 회원 관리 화면
+![Member Dashboard](./images/member_dashboard.png)
 
-[ 로그인 ]  [ 다시 입력 ]
+### 메인 홈 화면
+![Department Home](./images/department_home.png)
 
-회원가입
-```
-
-### 회원 관리 화면 예시
-```text
-회원 관리
-홍길동님 환영합니다!
-
-번호  아이디      이름      삭제
-1     user01      홍길동    [삭제]
-2     user02      김철수    [삭제]
-
-[ 홈으로 ] [ 회원가입 ] [ 로그아웃 ]
-```
-
-실제 JSP 파일 구조를 기준으로 정리한 화면 예시라서, 로그인 흐름과 회원 관리 흐름이 어떻게 이어지는지 README만으로도 대략 확인할 수 있습니다.
+PPT에 정리해둔 실제 실행 화면을 기준으로 넣은 이미지라서, 로그인 흐름과 회원 관리 화면 구성을 GitHub에서도 바로 확인할 수 있습니다.
 
 ## What To Look At
 
