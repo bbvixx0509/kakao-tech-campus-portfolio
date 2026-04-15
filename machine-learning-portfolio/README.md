@@ -37,13 +37,13 @@ R로 정리한 머신러닝 실습 코드 모음입니다.
 
 ### 실행 결과 예시
 #### k-NN 결과 화면
-![KNN Output](./images/knn_output.png)
+<img src="./images/knn_output.png" alt="KNN Output" width="700">
 
 #### SVM 결과 화면
-![SVM Output](./images/svm_output.png)
+<img src="./images/svm_output.png" alt="SVM Output" width="700">
 
 #### 신경망 결과 화면
-![Neural Network Output](./images/neural_network_output.png)
+<img src="./images/neural_network_output.png" alt="Neural Network Output" width="700">
 
 PDF에 정리해둔 실제 실행 결과 화면을 기준으로 넣은 이미지라서, 코드만 보는 것보다 출력값과 결과 해석 흐름을 더 쉽게 확인할 수 있습니다.
 

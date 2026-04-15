@@ -22,13 +22,13 @@ JSP와 Bootstrap으로 만든 웹 페이지 실습 프로젝트입니다.
 ## Preview
 
 ### 로그인 화면
-![Login Screen](./images/login_screen.png)
+<img src="./images/login_screen.png" alt="Login Screen" width="700">
 
 ### 회원 관리 화면
-![Member Dashboard](./images/member_dashboard.png)
+<img src="./images/member_dashboard.png" alt="Member Dashboard" width="700">
 
 ### 메인 홈 화면
-![Department Home](./images/department_home.png)
+<img src="./images/department_home.png" alt="Department Home" width="700">
 
 PPT에 정리해둔 실제 실행 화면을 기준으로 넣은 이미지라서, 로그인 흐름과 회원 관리 화면 구성을 GitHub에서도 바로 확인할 수 있습니다.
 
