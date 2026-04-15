@@ -23,6 +23,21 @@ C와 C++로 작성한 콘솔 프로그램 모음입니다.
 - `vedioborrow/vedioborrow/video_rental_app.c`
 - `vedioborrow/vedioborrow/video_rental_data.c`
 
+## Sample Output
+
+### phonebook
+```text
+1.입력
+2.수정
+3.삭제
+4.추가
+5.이름 오름차순
+6.검색
+7.출력
+```
+
+전화번호부 프로젝트는 메뉴 기반으로 기능이 분리되어 있어서, 콘솔 환경에서도 흐름을 따라가며 기능을 확인할 수 있습니다.
+
 ## Environment
 
 - `C`, `C++`
