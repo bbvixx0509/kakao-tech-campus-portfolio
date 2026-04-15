@@ -1,9 +1,9 @@
-# C Algorithm Practice
+# C 알고리즘 실습
 
 자료구조와 그래프 탐색 알고리즘을 직접 구현해 본 실습 코드 모음입니다.  
 기본 개념을 코드로 옮기면서 포인터, 배열, 탐색 흐름을 익히는 데 초점을 두었습니다.
 
-## Included
+## 포함 내용
 
 - `score_linked_list.c`, `score_linked_list.h`: 이름과 점수를 저장하는 연결 리스트 구현
 - `linked_queue.c`: 연결 큐 구현
@@ -11,13 +11,13 @@
 - `DFS,BFS/bfs`: 인접 행렬 기반 BFS 구현
 - `DFS,BFS/dfs`: 인접 행렬 기반 DFS 구현
 
-## What To Look At
+## 보면 좋은 부분
 
 - 자료구조의 기본 동작을 직접 구현한 방식
 - 포인터와 배열을 다루는 기본기
 - DFS와 BFS의 흐름 차이를 비교할 수 있는 점
 
-## Sample Output
+## 실행 예시
 
 ### BFS
 ```text
