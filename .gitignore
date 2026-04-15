@@ -27,12 +27,13 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Runtime / personal notes
-c-development-projects/vedioborrow/vedioborrow/user.txt
-c-development-projects/vedioborrow/vedioborrow/소웨공 해결해야할것.txt
-c-development-projects/Flash/flashmemory.txt
+C 개발 프로젝트/vedioborrow/vedioborrow/user.txt
+C 개발 프로젝트/vedioborrow/vedioborrow/소웨공 해결해야할것.txt
+C 개발 프로젝트/Flash/flashmemory.txt
+C 개발 프로젝트/Flash/header.h
 
 # Portfolio source documents
-c-development-projects/**/*.hwp
-c-development-projects/**/*.hwpx
-jsp-web-portfolio/*.pptx
-machine-learning-portfolio/*.pdf
+C 개발 프로젝트/**/*.hwp
+C 개발 프로젝트/**/*.hwpx
+JSP 웹 프로젝트/*.pptx
+머신러닝 포트폴리오/*.pdf
