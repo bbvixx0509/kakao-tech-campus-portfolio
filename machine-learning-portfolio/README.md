@@ -5,17 +5,17 @@ PDF로 정리해두었던 머신러닝 과제를 실행 가능한 R 스크립트
 
 ## Included Scripts
 
-- `iris_knn_distance_comparison_v2.R`: Iris 데이터셋으로 유클리드, 맨해튼, 마할라노비스 거리 기반 k-NN 성능을 비교합니다.
-- `ml5_q1_logistic_mahalanobis.R`: 다항 로지스틱 회귀와 마할라노비스 거리 기반 k-NN 분류를 비교합니다.
-- `ml5_q2_kernel_svm.R`: 특성 확장 후 선형 커널 SVM으로 분류를 수행합니다.
-- `ml5_q3_lm_tree.R`: 선형회귀와 의사결정나무 회귀 결과를 비교합니다.
-- `ml5_q4_random_forest.R`: 랜덤 포레스트 회귀와 변수 중요도를 확인합니다.
-- `ml5_q5_margin_perceptron.R`: 마진 퍼셉트론 학습 과정을 단계별로 계산합니다.
-- `ml5_q6_lm_neural_network.R`: 선형회귀와 신경망 예측 결과를 비교합니다.
-- `ml5_q7_backpropagation.R`: 2계층 신경망의 순전파와 역전파 계산 과정을 다룹니다.
-- `perceptron_learning_portfolio.R`: 퍼셉트론 학습 규칙으로 이진 분류 경계를 갱신합니다.
-- `play_information_gain_portfolio.R`: 정보이득을 이용해 분할 기준을 계산합니다.
-- `simple_neural_network_forward_portfolio.R`: 간단한 신경망의 순전파와 손실 계산을 정리합니다.
+- `knn_distance_comparison.R`: Iris 데이터셋으로 유클리드, 맨해튼, 마할라노비스 거리 기반 k-NN 성능을 비교합니다.
+- `logistic_vs_knn.R`: 다항 로지스틱 회귀와 마할라노비스 거리 기반 k-NN 분류를 비교합니다.
+- `kernel_svm.R`: 특성 확장 후 선형 커널 SVM으로 분류를 수행합니다.
+- `linear_vs_tree.R`: 선형회귀와 의사결정나무 회귀 결과를 비교합니다.
+- `random_forest.R`: 랜덤 포레스트 회귀와 변수 중요도를 확인합니다.
+- `margin_perceptron.R`: 마진 퍼셉트론 학습 과정을 단계별로 계산합니다.
+- `neural_network_regression.R`: 선형회귀와 신경망 예측 결과를 비교합니다.
+- `backpropagation.R`: 2계층 신경망의 순전파와 역전파 계산 과정을 다룹니다.
+- `perceptron_learning.R`: 퍼셉트론 학습 규칙으로 이진 분류 경계를 갱신합니다.
+- `information_gain.R`: 정보이득을 이용해 분할 기준을 계산합니다.
+- `neural_network_forward.R`: 간단한 신경망의 순전파와 손실 계산을 정리합니다.
 
 ## Main Topics
 
