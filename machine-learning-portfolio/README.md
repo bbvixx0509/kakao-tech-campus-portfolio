@@ -39,8 +39,8 @@ R로 정리한 머신러닝 실습 코드 모음입니다.
 #### k-NN 결과 화면
 <img src="./images/knn_output.png" alt="KNN Output" width="700">
 
-#### SVM 결과 화면
-<img src="./images/svm_output.png" alt="SVM Output" width="700">
+#### 퍼셉트론 학습 화면
+<img src="./images/perceptron_output.png" alt="Perceptron Output" width="700">
 
 #### 신경망 결과 화면
 <img src="./images/neural_network_output.png" alt="Neural Network Output" width="700">
