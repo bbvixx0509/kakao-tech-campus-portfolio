@@ -1,4 +1,4 @@
-# JSP 웹 프로젝트
+# JSP 기반 웹 애플리케이션
 
 JSP와 Bootstrap을 사용해 만든 웹 프로젝트입니다.  
 회원가입, 로그인, 회원 목록 확인, 회원 삭제, 로그아웃까지 기본적인 웹 서비스 흐름을 페이지 단위로 나누어 구현했습니다.
@@ -19,16 +19,16 @@ JSP와 Bootstrap을 사용해 만든 웹 프로젝트입니다.
 12. `curriculum_overview.jsp`: 학과 커리큘럼 소개 페이지입니다.
 13. `notice_board.jsp`: 공지사항 페이지입니다.
 
-## 실행 화면 예시
+## 화면 예시
 
 ### 로그인 화면
-<img src="../README%20이미지/JSP%20웹%20프로젝트/login_screen.png" alt="로그인 화면" width="680">
+<img src="./화면%20예시/login_screen.png" alt="로그인 화면" width="680">
 
 ### 회원 관리 화면
-<img src="../README%20이미지/JSP%20웹%20프로젝트/member_dashboard.png" alt="회원 관리 화면" width="680">
+<img src="./화면%20예시/member_dashboard.png" alt="회원 관리 화면" width="680">
 
 ### 메인 홈 화면
-<img src="../README%20이미지/JSP%20웹%20프로젝트/department_home.png" alt="메인 홈 화면" width="680">
+<img src="./화면%20예시/department_home.png" alt="메인 홈 화면" width="680">
 
 ## 이 프로젝트에서 확인할 수 있는 점
 
