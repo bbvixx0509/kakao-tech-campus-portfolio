@@ -1,0 +1,9 @@
+{
+  "id": "study-workflow-assistant",
+  "name": "Study Workflow Assistant",
+  "description": "Campus deadline summaries, study material organization, and Notion publishing",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": true
+  }
+}

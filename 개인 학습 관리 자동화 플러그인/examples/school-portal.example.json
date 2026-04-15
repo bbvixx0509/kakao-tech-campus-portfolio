@@ -1,0 +1,47 @@
+{
+  "loginUrl": "https://your-campus-login.example.com",
+  "readySelector": "text=Dashboard",
+  "loginSubmitSelector": "button[type='submit']",
+  "postLoginLandingUrl": "https://your-campus-lms.example.com",
+  "postLoginShortcutSelector": [
+    "text=LMS",
+    "text=Course"
+  ],
+  "browser": {
+    "userDataDir": "C:\\Users\\YOUR_NAME\\study-workflow-profile",
+    "channel": "chrome",
+    "headless": false,
+    "slowMoMs": 150
+  },
+  "assignments": {
+    "sources": [
+      {
+        "pageUrl": "https://your-campus-lms.example.com/courses/example/assignments",
+        "courseNameOverride": "Example Course"
+      }
+    ],
+    "includePattern": "assignment|quiz|report",
+    "card": ".assignment-card",
+    "title": ".assignment-title",
+    "course": ".course-name",
+    "dueText": ".due-date",
+    "status": ".status-chip",
+    "detailLink": "a.assignment-title"
+  },
+  "videos": {
+    "sources": [
+      {
+        "pageUrl": "https://your-campus-lms.example.com/courses/example/lectures",
+        "courseNameOverride": "Example Course"
+      }
+    ],
+    "includePattern": "lecture|video|week",
+    "card": ".lecture-card",
+    "title": ".lecture-title",
+    "course": ".course-name",
+    "dueText": ".period-text",
+    "status": ".status-chip",
+    "progressText": ".progress-text",
+    "detailLink": "a.lecture-title"
+  }
+}

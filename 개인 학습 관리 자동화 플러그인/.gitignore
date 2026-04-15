@@ -1,0 +1,16 @@
+node_modules/
+dist/
+dist-runtime/
+coverage/
+*.log
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+.DS_Store
+Thumbs.db
+tmp-*.png
+debug/
+playwright-report/
+test-results/
