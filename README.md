@@ -1,71 +1,46 @@
 # Portfolio
 
 카카오테크캠퍼스 4기 지원을 위해 정리한 포트폴리오 저장소입니다.  
-학교 수업, 개인 실습, 팀/주제형 과제를 한 저장소 안에서 보기 쉽게 정리했습니다.
+수업 과제, 개인 실습, 프로젝트 결과물을 한곳에서 보기 쉽게 정리했습니다.
 
-## Overview
+## 소개
 
-| 구분 | 내용 | 주요 기술 |
-| --- | --- | --- |
-| [C언어 개발 포트폴리오](./c-development-projects) | 전화번호부, 비디오 대여 프로그램, 플래시 메모리 시뮬레이터 | C, C++, 파일 입출력, 자료구조 |
-| [C언어 알고리즘 포트폴리오](./c-algorithm-practice) | 연결 리스트, 큐, 힙, DFS, BFS 구현 | C, 자료구조, 그래프 탐색 |
-| [웹페이지 포트폴리오](./jsp-web-portfolio) | JSP 기반 로그인/회원가입/회원관리 웹 페이지 | JSP, Java, Bootstrap |
-| [머신러닝 포트폴리오](./machine-learning-portfolio) | 머신러닝 수업 결과물 PDF 정리 | Machine Learning, 보고서 작성 |
-| [연구실 프로젝트](./weather-subway-crowding-analysis) | 날씨와 지하철 혼잡도 관련 분석 노트북 | Python, Jupyter Notebook, 데이터 분석 |
+이 저장소에는 C 언어 기반 콘솔 프로그램, 자료구조와 알고리즘 실습, JSP 웹 프로젝트, 머신러닝 실습 코드, 데이터 분석 노트북을 담았습니다.  
+완성도가 높은 대표 결과물부터 볼 수 있도록 폴더별 README도 함께 정리했습니다.
 
-## Recommended Order
+## 프로젝트 구성
 
-1. `c-development-projects`
-2. `jsp-web-portfolio`
+- [c-development-projects](./c-development-projects): 전화번호부, 비디오 대여, 플래시 메모리 실습처럼 직접 동작하는 C/C++ 콘솔 프로그램 모음
+- [jsp-web-portfolio](./jsp-web-portfolio): 회원가입, 로그인, 회원 관리 흐름이 있는 JSP 기반 웹 페이지 실습
+- [weather-subway-crowding-analysis](./weather-subway-crowding-analysis): 날씨 공공데이터와 지하철 혼잡도 관계를 살펴본 분석 노트북
+- [machine-learning-portfolio](./machine-learning-portfolio): 분류, 회귀, 퍼셉트론, 신경망 기초를 R 코드로 정리한 실습 모음
+- [c-algorithm-practice](./c-algorithm-practice): 연결 리스트, 큐, 힙, DFS, BFS를 직접 구현한 코드 모음
+
+## 추천해서 보는 순서
+
+1. `jsp-web-portfolio`
+2. `c-development-projects`
 3. `weather-subway-crowding-analysis`
 4. `machine-learning-portfolio`
 5. `c-algorithm-practice`
 
-## Highlights
+웹 프로젝트는 화면 흐름이 비교적 직관적이고, C 프로젝트는 기능 구현 역량을 보기 좋습니다.  
+분석과 머신러닝 폴더는 데이터 해석과 실습 과정을 보여주는 용도로 함께 정리했습니다.
 
-### C언어 개발 포트폴리오
+## 보면 좋은 부분
 
-- 파일 입출력과 구조체를 활용해 콘솔 기반 프로그램을 직접 구현했습니다.
-- 로그인, 회원 관리, 대여/반납, 검색, 정렬 같은 기본 기능을 프로그램 흐름 안에 묶어보았습니다.
-- 과제 결과물 수준에서 끝내지 않고, GitHub에서 읽기 쉽도록 구조를 다시 정리했습니다.
+- 기능을 끝까지 구현하려고 한 흔적이 있는지
+- 파일과 폴더를 읽기 쉽게 다시 정리했는지
+- 결과만 남긴 것이 아니라 과정도 함께 설명했는지
+- 과제 제출용 코드에서 끝내지 않고 포트폴리오 형태로 다듬었는지
 
-### 웹페이지 포트폴리오
+## 사용 환경
 
-- JSP와 Bootstrap을 이용해 회원가입, 로그인, 공지, 메인 관리 화면을 구성했습니다.
-- `application`/`session` scope를 사용해 회원 정보와 로그인 상태를 처리했습니다.
-- 페이지 흐름이 보이도록 주요 JSP 파일 역할을 README와 주석으로 정리했습니다.
+- `C`, `C++`, `Java/JSP`, `Python`, `R`
+- `Visual Studio`, `Bootstrap`, `Jupyter Notebook`
 
-### 데이터 분석 및 머신러닝
+## 참고
 
-- 주제형 분석 노트북과 수업 기반 PDF 결과물을 함께 정리했습니다.
-- 코드만 있는 저장소가 아니라, 분석 과정과 결과 자료까지 함께 확인할 수 있습니다.
-
-## Tech Stack
-
-- Language: `C`, `C++`, `Java/JSP`, `Python`
-- Core: `자료구조`, `파일 입출력`, `그래프 탐색`, `로그인/세션 처리`
-- Tools: `Visual Studio`, `Jupyter Notebook`, `Bootstrap`
-
-## Folder Guide
-
-```text
-포트폴리오/
-├─ c-development-projects/
-├─ c-algorithm-practice/
-├─ machine-learning-portfolio/
-├─ weather-subway-crowding-analysis/
-├─ jsp-web-portfolio/
-└─ README.md
-```
-
-## Run Notes
-
-- C/C++ 프로젝트는 Visual Studio 기준으로 작성되었습니다.
-- JSP 프로젝트는 톰캣 같은 JSP 실행 환경이 필요합니다.
-- Jupyter Notebook은 노트북 환경에서 열어 확인할 수 있습니다.
-- 머신러닝 PDF는 결과 보고서 형태로 정리되어 있습니다.
-
-## Notes
-
-- 빌드 산출물과 Visual Studio 임시 파일은 `.gitignore`로 제외했습니다.
-- 코드 이해를 돕기 위해 일부 대표 소스 파일에는 짧은 설명 주석을 보강했습니다.
+- 빌드 결과물과 임시 파일은 `.gitignore`로 제외했습니다.
+- 일부 코드 파일에는 이해를 돕는 짧은 설명 주석을 추가했습니다.
+- 프로젝트별 자세한 설명은 각 폴더의 `README.md`에서 확인할 수 있습니다.
